@@ -1,0 +1,1 @@
+export const DEFAULT_BROKEN_IMAGE = '/image/ic_unavailable_image.png';
