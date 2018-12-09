@@ -12,3 +12,17 @@ C:\WORKSPACE\Company\HvN\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Dem
 C:\WORKSPACE\Company\HvN\TH.AI.Demo\TH.AI.Demo\bin\Debug\netcoreapp2.1\TH.AI.Demo.pdb
 C:\WORKSPACE\Company\HvN\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.dll
 C:\WORKSPACE\Company\HvN\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.pdb
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\bin\Debug\netcoreapp2.1\TH.AI.Demo.deps.json
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\bin\Debug\netcoreapp2.1\TH.AI.Demo.runtimeconfig.json
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\bin\Debug\netcoreapp2.1\TH.AI.Demo.runtimeconfig.dev.json
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\bin\Debug\netcoreapp2.1\TH.AI.Demo.dll
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\bin\Debug\netcoreapp2.1\TH.AI.Demo.pdb
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.csprojAssemblyReference.cache
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.csproj.CoreCompileInputs.cache
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.RazorAssemblyInfo.cache
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.RazorAssemblyInfo.cs
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.AssemblyInfoInputs.cache
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.AssemblyInfo.cs
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.RazorTargetAssemblyInfo.cache
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.dll
+C:\WORKSPACE\Source\Git\AIServices\TH.AI.Demo\TH.AI.Demo\obj\Debug\netcoreapp2.1\TH.AI.Demo.pdb

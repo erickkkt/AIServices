@@ -12708,11 +12708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WORKSPACE\\Company\\HvN\\TH.AI.Demo\\TH.AI.Demo\\TH.AI.Demo.csproj",
+      "projectUniqueName": "C:\\WORKSPACE\\Source\\Git\\AIServices\\TH.AI.Demo\\TH.AI.Demo\\TH.AI.Demo.csproj",
       "projectName": "TH.AI.Demo",
-      "projectPath": "C:\\WORKSPACE\\Company\\HvN\\TH.AI.Demo\\TH.AI.Demo\\TH.AI.Demo.csproj",
+      "projectPath": "C:\\WORKSPACE\\Source\\Git\\AIServices\\TH.AI.Demo\\TH.AI.Demo\\TH.AI.Demo.csproj",
       "packagesPath": "C:\\Users\\Tai Hoang\\.nuget\\packages\\",
-      "outputPath": "C:\\WORKSPACE\\Company\\HvN\\TH.AI.Demo\\TH.AI.Demo\\obj\\",
+      "outputPath": "C:\\WORKSPACE\\Source\\Git\\AIServices\\TH.AI.Demo\\TH.AI.Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
