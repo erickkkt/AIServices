@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Swagger;
 using TH.AI.Demo.Services;
+using System.IO;
+using TH.AI.Demo.Entities;
 
 namespace TH.AI.Demo
 {
@@ -26,6 +28,15 @@ namespace TH.AI.Demo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IConfiguration>(Configuration);
+            services.AddOptions();
+            var configBuilder = new ConfigurationBuilder()
+                                .SetBasePath(Directory.GetCurrentDirectory())
+                                .AddJsonFile("appsettings.json", optional: true);
+
+            var config = configBuilder.Build();
+            services.Configure<AppSetting>(config);
+
             services.AddSingleton<IApiService, ApiService>();
 
             //Allow headers
