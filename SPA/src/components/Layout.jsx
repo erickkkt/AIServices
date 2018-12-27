@@ -13,6 +13,7 @@ import { CategoryBlogs } from "./CategoryBlogs"
 import { BaseUrl } from "../base.url";
 import { guid } from "./../helper"
 import { SearchBlogs } from "./SearchBlogs";
+import { PredictSpamMail } from "./PredictSpamMail";
 
 export class Layout extends React.Component {
 
@@ -100,6 +101,7 @@ export class Layout extends React.Component {
                             <Route path={BaseUrl.CATEGORYBLOGS_DETAIL_URL} render={(props) => <CategoryBlogs {...props} key={guid()}/>} />
                             <Route path={BaseUrl.SEARCHBLOGS_DETAIL_URL} render={(props) => <SearchBlogs {...props} key={guid()}/>} />
                             <Route path={BaseUrl.CREATE_BLOG_URL} component={() => <CreateBlog userProfile={this.state.userProfile} />} />
+                            <Route path={BaseUrl.PREDICT_SPAM_URL} component={PredictSpamMail} />
                         </div>
 
                         <div className="col-md-4">

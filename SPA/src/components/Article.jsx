@@ -1,7 +1,9 @@
 import * as React from 'react';
 import { BaseUrl } from './../base.url'
+import { Route, Link,Switch } from "react-router-dom"
 import { apiGetArticleById, apiCreateComment, apiGetCommentsByArticleById } from '../apiService';
 import { SocialNetworkShare } from './SocialNetworkShare'
+import _ from 'lodash'
 
 export class Article extends React.Component {
 	constructor(props) {
@@ -22,6 +24,7 @@ export class Article extends React.Component {
 			if (response.target.status == 200) {
 				let data = JSON.parse(response.target.responseText);
 				this.setState({ article: data })
+				console.log(data);
 			}
 		},
 			(errors) => {
@@ -95,19 +98,34 @@ export class Article extends React.Component {
 				<h1 className="mt-4">{this.state.article ? this.state.article.title : ''}</h1>
 
 				<div className="lead">
-					<span>	by <a href="#">{this.state.article ? this.state.article.createdBy : ''}</a> (Posted on {this.state.article ? this.state.article.createdDate : ''})</span>
+					<span>	by <a href="#">{this.state.article ? this.state.article.createdBy : ''}</a> (Posted on {this.state.article ? this.state.article.updatedDate : ''})</span>
 				</div>
 
-				<hr />
-				<button>Try it now!</button>
-				<hr />
+				{
+				
+					(() => {
+						if (this.state.article 
+							&& ((this.state.article.categoryArticleName && this.state.article.categoryArticleName.toLowerCase().includes('machine learning'))
+								|| (this.state.article.ext && this.state.article.ext.toLowerCase().includes('machine learning')))){
+
+									return (
+										<div>
+											<hr />
+											<button> <Link className="nav-link" to={BaseUrl.PREDICT_SPAM_URL}>Try it now!</Link></button>
+											<hr />
+										</div>
+									)
+						}
+					})()
+				}
+
 
 				<div dangerouslySetInnerHTML={{ __html: this.state.article ? this.state.article.fullContent : '' }} />
 
 				<hr />
 				<SocialNetworkShare mediaFile={mediaFile} title={title} />
-
 				<hr />
+
 				{
 					(() => {
 						if (this.state.userProfile) {

@@ -3,6 +3,7 @@ import { environment } from './environments/environment';
 export const BaseUrl = {
     BASE_URL: environment.serviceAPI,
     AUTH_URL: environment.authAPI,
+    AI_URL:environment.aiAPI,
     HOME_URL: environment.clientURL + '/',
     ARTICLE_DETAIL_URL: environment.clientURL + '/article/:articleId',
     LOGIN_URL: environment.clientURL + '/login',
@@ -14,5 +15,6 @@ export const BaseUrl = {
     SEARCHBLOGS_URL: environment.clientURL + '/searchblogs',
     SEARCHBLOGS_DETAIL_URL: environment.clientURL + '/searchblogs/:search',
     CREATE_BLOG_URL: environment.clientURL + '/createblog',
-    ARTICLE_URL: environment.clientURL + '/article'
+    ARTICLE_URL: environment.clientURL + '/article',
+    PREDICT_SPAM_URL: environment.clientURL + '/predictspammail'
 }

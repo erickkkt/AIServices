@@ -6,5 +6,6 @@ export const environment = {
 
     serviceAPI: 'https://api-webblog.azurewebsites.net',
     authAPI: 'https://auth-webblog.azurewebsites.net',
+    aiAPI:'https://ai-api.azurewebsites.net',
     clientURL:''
   };

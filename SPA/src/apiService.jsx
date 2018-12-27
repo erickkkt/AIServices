@@ -3,6 +3,13 @@ import { BaseUrl } from './base.url';
 import { ServiceUrl } from './service.url';
 import { AuthUrl } from './auth.url';
 
+/* Machine Learning */
+
+export function apiPredictSpamMail(mailModel, callback, errorCallback) {
+    var url = BaseUrl.AI_URL + ServiceUrl.PREDICT_SPAM_API_URL;
+    fetchApi(url, 'POST', mailModel, callback, errorCallback);
+}
+
 /* Articles */
 export function apiGetArticles(callback, errorCallback) {
     var url = BaseUrl.BASE_URL + ServiceUrl.ARTICLE_URL;
